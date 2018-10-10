@@ -8,6 +8,7 @@
 
 - Fork this repo, create a branch called source.
 - Replace your name with dummy data.
+- Then start writing your own blog.
 - That's all.
 
 ## Steps to run
