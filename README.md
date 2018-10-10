@@ -1,8 +1,8 @@
-# [gatsby-lite-boilerplate](https://gokulkrishh.github.io)
+# [gatsby-lite-boilerplate](https://gatsby-lite.surge.sh)
 
 💅 A simple and minimalistic theme to get started with gatsbyjs (v2.0) based blog.
 
-### [Live](https://gokulkrishh.github.io)
+### [Live](https://gatsby-lite.surge.sh)
 
 ## Step to follow before using it.
 
