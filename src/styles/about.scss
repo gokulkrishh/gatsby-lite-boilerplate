@@ -1,0 +1,136 @@
+.about {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 35px 0 50px;
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 30px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+  h1 {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  > div {
+    margin-top: 10px;
+  }
+
+  p a {
+    margin: 0 6px;
+    font-weight: 500;
+  }
+
+  .social a {
+    border: 0;
+    margin: 8px 5px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:hover {
+      background-color: transparent;
+      opacity: 0.6;
+    }
+  }
+
+  .social img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .social .github img {
+    width: 26px;
+  }
+}
+
+.about-me {
+  width: 100%;
+  margin-bottom: 30px;
+
+  ul {
+    list-style: disc;
+    margin-bottom: 30px;
+  }
+
+  li span {
+    color: #3c4043;
+    font-weight: 500;
+  }
+
+  li a {
+    margin: 0 4px;
+  }
+
+}
+
+
+@media all and (max-width: 740px) and (min-width: 640px) {
+  .about .avatar {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
+@media all and (max-width: 640px) and (min-width: 480px) {
+  .about {
+    flex-direction: column;
+    margin-bottom: -30px;
+  }
+
+  .about img {
+    margin-bottom: 20px;
+  }
+
+  .about div {
+    text-align: center;
+  }
+
+  .about div h1 {
+    font-size: 21px;
+  }
+
+  .about .avatar {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .about .avatar {
+    width: 70px;
+    height: 70px;
+    margin: 15px 0;
+  }
+
+  .about {
+    flex-direction: column;
+    margin-bottom: -10px;
+    margin-top: 20px;
+  }
+
+  .about img {
+    margin-bottom: 20px;
+  }
+
+  .about div {
+    text-align: center;
+    margin: 0;
+  }
+
+  .about div h1 {
+    font-size: 21px;
+  }
+}

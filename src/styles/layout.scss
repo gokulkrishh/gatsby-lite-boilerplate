@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  color: #3c4043;
+  font-family: "Google Sans", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+h1, h2, h3, h4, h5, b, strong {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+.grid {
+  width: 920px;
+  height: inherit;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  color: #3367d6;
+  display: inline-block;
+  font-weight: 500;
+  text-decoration: #3367d6 solid underline;
+  text-underline-position: under;
+
+  &:hover {
+    color: #2663e4;
+    background-color: rgba(9, 131, 228, 0.2);
+  }
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 20px 0;
+}
+
+ul {
+  list-style: decimal;
+  padding-left: 25px;
+}
+
+li {
+  padding-left: 5px;
+}
+
+ul, li {
+  margin: 15px 0;
+}
+
+i {
+  font-style: normal;
+}
+
+.not-found {
+  h1 {
+    margin: 50px 0 0;
+  }
+
+  > .grid {
+    height: 800px;
+  }
+}
+
+time {
+  font-size: 14px;
+  color: #6f6f6f;
+  font-weight: 500;
+}
+
+table {
+  width: 100%;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+
+
+  thead th {
+    font-weight: 500;
+  }
+
+  thead th,
+  tbody td {
+    text-align: left !important;
+    padding: 7px 5px;
+  }
+
+  thead tr {
+    background-color: #d4d4d4;
+  }
+
+  tbody td:not(:last-child) {
+    border-right: 1px solid #ccc;
+  }
+}
+
+blockquote {
+  margin-left: -20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  color: #3c4043;
+  font-style: italic;
+  border-left: 3px solid #212121;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+
+@media all and (max-width: 920px) and (min-width: 740px) {
+  .grid {
+    width: 720px;
+  }
+}
+
+@media all and (max-width: 740px) and (min-width: 640px) {
+  .grid {
+    width: 640px;
+  }
+}
+
+@media all and (max-width: 640px) and (min-width: 480px) {
+  .grid {
+    width: 480px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .grid {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  h3 {
+    font-size: 19px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  p, a, ul, li {
+    font-size: 14px;
+  }
+}
